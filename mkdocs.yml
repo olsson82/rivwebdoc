@@ -1,0 +1,67 @@
+site_name: Rivendell Web Broadcast
+nav:
+  - Home: index.md
+  - About: about.md
+  - Installation: install.md
+  - Dashboard: dashboard.md
+  - Carts Management:
+    - Library: library.md
+    - Audio Cart: audiocart.md
+    - Macro Cart: macrocart.md
+  - Log Edit:
+    - Logs: logs.md
+    - Edit Log: editlog.md
+    - Voicetracking: voicetrack.md
+  - Log Manager:
+    - Events: events.md
+    - Edit Event: editevent.md
+    - Clocks: clocks.md
+    - Edit Clock: editclock.md
+    - Grids: grids.md
+  - Account Info: accountinfo.md
+  - Admin:
+    - Admin Dashboard: admindash.md
+    - System Settings: systemsettings.md
+    - Users: users.md
+    - Groups: groups.md
+    - Scheduler Codes: schedcodes.md
+    - Services: rivservices.md
+    - Rivendell Hosts: rivhost.md
+    - RDAirPlay: rdairplay.md
+theme:
+  name: material  
+  logo: img/logo.png
+  favicon: img/logo.png
+  features:
+    - navigation.sections
+    - navigation.path
+  palette:
+    # Palette toggle for automatic mode
+    - media: "(prefers-color-scheme)"
+      toggle:
+        icon: material/brightness-auto
+        name: Switch to light mode
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      scheme: default 
+      toggle:
+        icon: material/brightness-7
+        name: Switch to dark mode
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      scheme: slate
+      toggle:
+        icon: material/brightness-4
+        name: Switch to system preference
+repo_name: olsson82/rivendellweb
+repo_url: https://github.com/olsson82/rivendellweb
+copyright: Copyright &copy; 2023-2024 Andreas Olsson
+extra:
+  social:
+    - icon: fontawesome/brands/github 
+      link: https://github.com/olsson82/rivendellweb
+markdown_extensions:
+  - tables
+  - admonition
+  - pymdownx.details
+  - pymdownx.superfences
