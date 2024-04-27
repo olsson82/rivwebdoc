@@ -1026,7 +1026,10 @@
 <p><img alt="Screenshot" src="../img/install.png" /></p>
 <p>The installation of the system is simple, but before you install your system, you need to have all the requirements for your server.</p>
 <p>For the moment there are no server check in the installer so you need to do this process first.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
 <p><strong>This guide is for Debian based system</strong></p>
+</div>
 <h2 id="install-dependencies">Install Dependencies</h2>
 <h3 id="apache">Apache</h3>
 <p>Normally apache is installed during installation of Rivendell, but if not, you need to install it with following command:</p>
@@ -1054,7 +1057,11 @@
 <p>A release file is "more stable" than the "github" code, when we update the version number we release a new release. This can contain less bugs, than clone the github code. And we recommend this way.</p>
 <p>Download the latests release and extract it inside the /var/www/html folder.</p>
 <h3 id="development-versions">Development versions</h3>
-<p>If you want the latest changes in the system, Clone the github repository inside the html folder. <strong>This is the development and changes a lot and can hold many bugs!</strong></p>
+<p>If you want the latest changes in the system, Clone the github repository inside the html folder. </p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>This is the development and changes a lot and can hold many bugs!</strong></p>
+</div>
 <h3 id="data-folder">Data Folder</h3>
 <p>Chmod the data folder so it get read and write access. This folder store json settings files for the system, logeditor and password reset.</p>
 <h3 id="reverse-proxy">Reverse Proxy</h3>
@@ -1063,7 +1070,11 @@
 <h2 id="run-the-installer">Run the installer</h2>
 <p>Open up Rivendell Web Broadcast on your browser to start installation. You will have to fill out some important settings first. All settings can be changed later in the system.</p>
 <h3 id="admin-user">Admin user</h3>
-<p>Under the admin user field you enter your or anyones username on rivendell with normal user access on rivendell. This user will get admin access to the web system. <strong>Rivendells Admin user can not be used in this system</strong></p>
+<p>Under the admin user field you enter your or anyones username on rivendell with normal user access on rivendell. This user will get admin access to the web system. </p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>Rivendells Admin user can not be used in this system</strong></p>
+</div>
 <p>Just enter one username now, you can add more later.</p>
 <h3 id="smtp-settings">SMTP Settings</h3>
 <p>The SMTP settings are used to send out emails in the system and is required.</p>
