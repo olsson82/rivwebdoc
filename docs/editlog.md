@@ -2,9 +2,11 @@
 ![Screenshot](img/editlog.png)
 This is where you edit your log. During the edit, all changed are stored local on the server and will not affect the log on rivendell until you press the save button.
 
-**When you edit your log, an log lock will be added to that log, so no one else can do changes in the log as long as you edit the log.**
+!!! Warning
 
-**It's important that you press the close button when you are done to release the lock, and if you don't do anything for 30 minutes, a warning will pop up and you have 60 seconds to move your mouse or press a button. If you don't do it, the log will auto close without save your changes.**
+    **When you edit your log, an log lock will be added to that log, so no one else can do changes in the log as long as you edit the log. It's important that you press the close button when you are done to release the lock, and if you don't do anything for 30 minutes, a warning will pop up and you have 60 seconds to move your mouse or press a button. If you don't do it, the log will auto close without save your changes.**
+
+
 
 ## Loglines
 ![Screenshot](img/loglines.png)
@@ -41,4 +43,6 @@ By pressing the red button marked **X** you will remove your log line, you will 
 ## Save your log
 Don't forget to save your log! Your log will not be active until you save it. Only when you press save, changes will be sent to rivendell to save your log.
 
-When you save your log it will start with line number 0 from top, also the order will start from 0. We need to re calculate the line number on save due to rivendells API can not save logs if they not start at line number 0.
+!!! Info
+
+    When you save your log it will start with line number 0 from top, also the order will start from 0. We need to re calculate the line number on save due to rivendells API can not save logs if they not start at line number 0.
