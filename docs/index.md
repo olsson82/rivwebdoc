@@ -20,3 +20,12 @@ This is an free tool you host on your Rivendell Machine and allow your Rivendell
 ![Screenshot](img/servicelang.png) 
 
 You can easy switch service from the menu, and it also ready for multilanguage, all translation is handle thru crowdin for easy translation.
+
+## Translation
+[![Crowdin](https://badges.crowdin.net/rivendell-web-broadcast/localized.svg)](https://crowdin.com/project/rivendell-web-broadcast)
+
+Rivendell Web Broadcast is multilanguage, and you can help out and translate it to your language.
+
+Translation is handled thru [Crowdin](https://crowdin.com/project/rivendell-web-broadcast) so you don't need to edit any files.
+
+If you can't find your language there, please add an issue on our GitHub page.
