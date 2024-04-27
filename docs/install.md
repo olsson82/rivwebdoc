@@ -6,7 +6,9 @@ The installation of the system is simple, but before you install your system, yo
 
 For the moment there are no server check in the installer so you need to do this process first.
 
-**This guide is for Debian based system**
+!!! Info
+
+    **This guide is for Debian based system**
 
 ## Install Dependencies
 
@@ -62,7 +64,11 @@ Download the latests release and extract it inside the /var/www/html folder.
 
 ### Development versions
 
-If you want the latest changes in the system, Clone the github repository inside the html folder. **This is the development and changes a lot and can hold many bugs!**
+If you want the latest changes in the system, Clone the github repository inside the html folder. 
+
+!!! Warning
+
+    **This is the development and changes a lot and can hold many bugs!**
 
 ### Data Folder
 
@@ -80,7 +86,11 @@ Open up Rivendell Web Broadcast on your browser to start installation. You will 
 
 ### Admin user
 
-Under the admin user field you enter your or anyones username on rivendell with normal user access on rivendell. This user will get admin access to the web system. **Rivendells Admin user can not be used in this system**
+Under the admin user field you enter your or anyones username on rivendell with normal user access on rivendell. This user will get admin access to the web system. 
+
+!!! Info
+
+    **Rivendells Admin user can not be used in this system**
 
 Just enter one username now, you can add more later.
 
