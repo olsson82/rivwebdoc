@@ -16,13 +16,9 @@ Add a new clock line here by selecting the event you would like to use, then you
 ![Screenshot](img/saveasclock.png)
 The save as allows you to save this clock with a new name, good to use if you need to make a copy of the existent clock.
 
-## Services
-![Screenshot](img/enabledservicesclock.png)
-Here can you select what services this clock will belong to. You can select multiple services.
-
-## Color
-![Screenshot](img/colorclock.png)
-Here you can select color that this clock will have. The color code needs to be in hex format if you type it your self.
+## Settings
+![Screenshot](img/clocksettings.png)
+Here you manage your clock settings.
 
 ## Scheduler Rules
 ![Screenshot](img/schedclock1.png)
