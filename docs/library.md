@@ -31,7 +31,7 @@ The pen button on each cart will take you to the edit page for that cart. You ca
 ### Remove Cart
 The red button with an **X** on will remove the cart, you will get a warning before you remove the cart. 
 
-!! Warning
+!!! Warning
 
     **Voice tracks that belongs to logs can not be removed**
 
@@ -42,14 +42,14 @@ The multi edit function let you edit multiple fields in multiple carts. You will
 
 You will see that it will pop up two buttons on the screen, click on Multi edit carts button, and it will pop up a window where you can make changes in. 
 
-!! Info
+!!! Info
 
     **Only fields that you write in will be updated.**
 
 ## Delete Carts
 You can delete multiple carts by select the check boxes and press the Delete Selected button that will pop up.
 
-!! Warning
+!!! Warning
 
     **Voice tracks that belongs to logs can not be removed**
 
