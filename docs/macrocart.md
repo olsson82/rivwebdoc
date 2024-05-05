@@ -5,16 +5,29 @@ Here do you manage your macro cart, you set your settings for your cart and pres
 
 ## Commandos
 ![Screenshot](img/commandos.png)
-In your macro cart you have your commandos, where you tell what your macro cart will do. **Changes will take affect directly**
+In your macro cart you have your commandos, where you tell what your macro cart will do. 
+
+!!! Warning
+
+    **Changes will take affect directly**
 
 ### Add Command
 ![Screenshot](img/addcommand.png)
-Press the add command button to have the window popup for you to set the new command. 
+Press the add command button to have the window popup for you to set the new command.
 
-The new command will be added at the bottom.
+!!! Info
+
+    The new command will be added at the bottom.
+
+
+## Move Command
+You can move a command up or down by pressing on a arrow up or down.
 
 ### Edit Command
 You can edit a command by pressing the pen button.
+
+## Copy Command
+You can copy the command by pressing the copy button. You will be able to modify it before it will be added. When added it will be added on last row.
 
 ### Remove Command
 To remove a command just press the red button with an **X** on. You will need to confirm that.
