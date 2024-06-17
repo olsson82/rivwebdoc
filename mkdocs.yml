@@ -28,6 +28,7 @@ nav:
     - Services: rivservices.md
     - Rivendell Hosts: rivhost.md
     - RDAirPlay: rdairplay.md
+    - RDPanel: rdpanel.md
 theme:
   name: material  
   logo: img/logo.png
