@@ -389,6 +389,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#pre-check" class="md-nav__link">
+    Pre check
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#admin-user" class="md-nav__link">
     Admin user
   </a>
@@ -993,6 +1000,13 @@
       <ul class="md-nav__list">
         
           <li class="md-nav__item">
+  <a href="#pre-check" class="md-nav__link">
+    Pre check
+  </a>
+  
+</li>
+        
+          <li class="md-nav__item">
   <a href="#admin-user" class="md-nav__link">
     Admin user
   </a>
@@ -1039,7 +1053,6 @@
 <h1 id="install-rivendell-web-broadcast">Install Rivendell Web Broadcast</h1>
 <p><img alt="Screenshot" src="../img/install.png" /></p>
 <p>The installation of the system is simple, but before you install your system, you need to have all the requirements for your server.</p>
-<p>For the moment there are no server check in the installer so you need to do this process first.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
 <p><strong>This guide is for Debian based system</strong></p>
@@ -1064,7 +1077,7 @@
 <p>For the moment we use FFMPEG to get the length of the audio files, this will be removed in the future, but for now you need to install FFMPEG on your server:</p>
 <p><code>sudo apt install ffmpeg</code></p>
 <h2 id="install-system">Install System</h2>
-<p>Now we are going to install the system on your server. This must be done on a server that has rivendell installed.</p>
+<p>Now we are going to install the system on your server. This must be done on a server that has Rivendell installed.</p>
 <p>Start by login to root user: <code>su -l</code></p>
 <p>Go to apache folder: <code>cd /var/www/html</code> and remove the index file: <code>rm index.html</code></p>
 <h3 id="stable-versions">Stable versions</h3>
@@ -1082,7 +1095,10 @@
 <p>It's recommended that you use reverse proxy with https access before you expose the machine on the world wide web. For testing you can use http://localhost</p>
 <p>Audio recording needs https access to work, but they will work on localhost also.</p>
 <h2 id="run-the-installer">Run the installer</h2>
-<p>Open up Rivendell Web Broadcast on your browser to start installation. You will have to fill out some important settings first. All settings can be changed later in the system.</p>
+<p>Open up Rivendell Web Broadcast in your browser.</p>
+<h3 id="pre-check">Pre check</h3>
+<p><img alt="Screenshot" src="../img/precheck.png" /></p>
+<p>The installation will first check your system to see that the most important parts is correct on your server. If everything looks good, you can continue, if it's not good, there will be a red warning on that part. Fix that and reload the page to start installation by pressing the next button that will be available.  </p>
 <h3 id="admin-user">Admin user</h3>
 <p>Under the admin user field you enter your or anyones username on rivendell with normal user access on rivendell. This user will get admin access to the web system. </p>
 <div class="admonition info">
