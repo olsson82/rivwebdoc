@@ -4,8 +4,6 @@
 
 The installation of the system is simple, but before you install your system, you need to have all the requirements for your server.
 
-For the moment there are no server check in the installer so you need to do this process first.
-
 !!! Info
 
     **This guide is for Debian based system**
@@ -50,7 +48,7 @@ For the moment we use FFMPEG to get the length of the audio files, this will be 
 
 ## Install System
 
-Now we are going to install the system on your server. This must be done on a server that has rivendell installed.
+Now we are going to install the system on your server. This must be done on a server that has Rivendell installed.
 
 Start by login to root user: `su -l`
 
@@ -82,7 +80,12 @@ Audio recording needs https access to work, but they will work on localhost also
 
 ## Run the installer
 
-Open up Rivendell Web Broadcast on your browser to start installation. You will have to fill out some important settings first. All settings can be changed later in the system.
+Open up Rivendell Web Broadcast in your browser.
+
+### Pre check
+![Screenshot](img/precheck.png)
+
+The installation will first check your system to see that the most important parts is correct on your server. If everything looks good, you can continue, if it's not good, there will be a red warning on that part. Fix that and reload the page to start installation by pressing the next button that will be available.  
 
 ### Admin user
 
