@@ -16,6 +16,19 @@ If you press the pen button on the cut, you will open the cut info window where 
 
 Just press save button to save your changes.
 
+### Record Cut
+![Screenshot](img/recordcut.png)
+The red button with an microphone on, allows you to record audio directly in to that cut. When you press on that button a window will open, start by set the audio channels, audiotrim and normalize settings.
+
+To start a recording, press the record button, if not already setup you will have to select input audio in your web browser first. Now your recording started. A stop button will show so you can stop recording.
+
+![Screenshot](img/recordedcut.png)
+When the recording is done, you can listen to your recording by pressing the play button, save your recording by pressing the Save Recording button or download the recording by pressing the Download Recording button.
+
+!!! Info
+
+    **You can press the Record button again if you need to do a new recording. The new recording will be available below the old recording.**
+
 ### Edit Audio Markers
 ![Screenshot](img/editmarkers.png)
 The light blue button that looks like audio waves is where you can manage your cuts audio markers. You can set your fades, segue, talk and hook.
