@@ -13,7 +13,7 @@
     
     
       
-        <title>RDAirPlay - Rivendell Web Broadcast</title>
+        <title>RDCatch - Rivendell Web Broadcast</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#rdairplay" class="md-skip">
+        <a href="#audio-cart" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              RDAirPlay
+              RDCatch
             
           </span>
         </div>
@@ -698,72 +698,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          RDAirPlay
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../rdairplay/" class="md-nav__link">
         RDAirPlay
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#add-message" class="md-nav__link">
-    Add Message
-  </a>
-  
-    <nav class="md-nav" aria-label="Add Message">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#set-the-url" class="md-nav__link">
-    Set the url
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#edit-rdairplay" class="md-nav__link">
-    Edit RDAirPlay
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -787,11 +726,52 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../rdcatch/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          RDCatch
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         RDCatch
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#edit-macro-event" class="md-nav__link">
+    Edit Macro Event
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -830,28 +810,8 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#add-message" class="md-nav__link">
-    Add Message
-  </a>
-  
-    <nav class="md-nav" aria-label="Add Message">
-      <ul class="md-nav__list">
-        
-          <li class="md-nav__item">
-  <a href="#set-the-url" class="md-nav__link">
-    Set the url
-  </a>
-  
-</li>
-        
-      </ul>
-    </nav>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#edit-rdairplay" class="md-nav__link">
-    Edit RDAirPlay
+  <a href="#edit-macro-event" class="md-nav__link">
+    Edit Macro Event
   </a>
   
 </li>
@@ -868,29 +828,23 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/rdairplay.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/rdcatch.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 
-<h1 id="rdairplay">RDAirPlay</h1>
-<p><img alt="Screenshot" src="../img/rdairplay.png" />
-Manage your RDAirPlay application here.</p>
-<h2 id="add-message">Add Message</h2>
-<p><img alt="Screenshot" src="../img/rdmess.png" /></p>
-<p>You can set a message in RDAirPlay message window as it has sins version 4.2.0 support for url messages.</p>
-<p>Write your message in the window (you can use HTML codes).</p>
-<h3 id="set-the-url">Set the url</h3>
-<p>To set RDAirPlay to display that message, you need to send a macro command to it. The following command is used to display your message:</p>
-<p><code>LM https://yourhost.com/api/getmessage.php?station=thehostname!</code></p>
-<div class="admonition info">
-<p class="admonition-title">Info</p>
-<p><strong>Replace yourhost.com with your address to Rivendell Web Broadcast and thehostname with the hostname where your RDAirPlay is on.</strong> The ! is needed at the end.</p>
+<h1 id="audio-cart">Audio Cart</h1>
+<p><img alt="Screenshot" src="../img/rdcatch.png" />
+RDCatch is the place where you manage your RDCatch events. You need to have the host rights on your user to be able to access this part.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>This is still in early develop, for the moment you can only edit macro events. More function will come during the development.</strong></p>
 </div>
-<h2 id="edit-rdairplay">Edit RDAirPlay</h2>
-<p><img alt="Screenshot" src="../img/confrdairplay.png" /></p>
-<p>You can set your RDAirPlay settings when you press the yellow button with an pen on it. Not every settings is possible to set.</p>
+<h2 id="edit-macro-event">Edit Macro Event</h2>
+<p><img alt="Screenshot" src="../img/editmacroevent.png" />
+Click on the yellow button with an pen on it to edit macro event. A window will open for you to edit that event.</p>
+<p>You can press the Select Cart button to open up and select a macro cart.</p>
 
               
             </article>
@@ -904,7 +858,7 @@ Manage your RDAirPlay application here.</p>
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../rivhost/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Rivendell Hosts" rel="prev">
+        <a href="../rdpanel/" class="md-footer__link md-footer__link--prev" aria-label="Previous: RDPanel" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -913,26 +867,11 @@ Manage your RDAirPlay application here.</p>
               <span class="md-footer__direction">
                 Previous
               </span>
-              Rivendell Hosts
-            </div>
-          </div>
-        </a>
-      
-      
-        
-        <a href="../rdpanel/" class="md-footer__link md-footer__link--next" aria-label="Next: RDPanel" rel="next">
-          <div class="md-footer__title">
-            <div class="md-ellipsis">
-              <span class="md-footer__direction">
-                Next
-              </span>
               RDPanel
             </div>
           </div>
-          <div class="md-footer__button md-icon">
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M4 11v2h12l-5.5 5.5 1.42 1.42L19.84 12l-7.92-7.92L10.5 5.5 16 11H4z"/></svg>
-          </div>
         </a>
+      
       
     </nav>
   
