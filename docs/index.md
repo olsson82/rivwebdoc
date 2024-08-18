@@ -1,6 +1,10 @@
 # Welcome to Rivendell Web Broadcast
 
-Do you use Rivendell Radio Automation ? Here is a system that helps you on the way, where you can manage Rivendell over the web. 
+Do you use Rivendell Radio Automation ? Here is a system that helps you on the way, where you can manage Rivendell over the web.
+
+!!! Warning
+
+    **This system is not from the developer of Rivendell Radio Automation.**
 
 !!! Info
 
