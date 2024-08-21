@@ -7,6 +7,12 @@ RDCatch is the place where you manage your RDCatch events. You need to have the 
 
     **This is still in early develop, for the moment you can only edit macro events, download events and upload events. More function will come during the development.**
 
+## Add RDCatch Event.
+To add an RDCatch event, press on the Add button and select what type of event you would like to add.
+
+## Remove RDCatch Event
+To remove an RDCatch Event press the red **X** button on that event. You will need to confirm your removal.
+
 ## Edit Macro Event
 ![Screenshot](img/editmacroevent.png)
 Click on the yellow button with an pen on it to edit macro event. A window will open for you to edit that event.
