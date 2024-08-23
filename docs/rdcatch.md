@@ -32,3 +32,9 @@ If you need to change the cut to another one, press the button Select Cut that n
 To edit an upload event, press the yellow pen button on that event to open up that edit window.
 
 Just like for download to select a destination, you press the Select Cart button, and if you need to select another cut than what is assigned, press the select cut button and assign that cut.
+
+## Edit Switches Event
+![Screenshot](img/editswitch.png)
+To edit an switch event, press the yellow pen button on that event to open up that edit window.
+
+The Switch Matrix Will change depending on your location setting in event, and Switch Output and Input will change depending on you Switch Matrix setting in event.
