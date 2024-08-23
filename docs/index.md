@@ -18,6 +18,10 @@ This is an free tool you host on your Rivendell Machine and allow your Rivendell
 
     **This is still in early development so it's not recommended to use it on live production without testing it on a test machine. You use it at your own risk!**
 
+## Works on every platform
+Rivendell Web System is built to function on every platform. It is an Progressive web app, so you can save it on your homescreen on your tablet or phone, and use it as an app.
+
+Or save it on you computer and it will work like a software.
 
 ## For your needs
 
