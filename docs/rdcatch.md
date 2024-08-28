@@ -5,7 +5,7 @@ RDCatch is the place where you manage your RDCatch events. You need to have the 
 
 !!! Warning
 
-    **This is still in early develop, for the moment you can only edit macro events, download events and upload events. More function will come during the development.**
+    **This is still in early develop, for the moment you can only edit macro events, download events, playout events and upload events. More function will come during the development.**
 
 ## Add RDCatch Event.
 To add an RDCatch event, press on the Add button and select what type of event you would like to add.
@@ -38,3 +38,9 @@ Just like for download to select a destination, you press the Select Cart button
 To edit an switch event, press the yellow pen button on that event to open up that edit window.
 
 The Switch Matrix Will change depending on your location setting in event, and Switch Output and Input will change depending on you Switch Matrix setting in event.
+
+## Edit Playout Event
+![Screenshot](img/rdcatchplayout.png)
+To edit an playout event, press the yellow pen button on that event to open up that edit window.
+
+The Playout port will change depending on your location setting in event.
