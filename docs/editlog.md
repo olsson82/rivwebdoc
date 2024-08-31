@@ -2,6 +2,10 @@
 ![Screenshot](img/editlog.png)
 This is where you edit your log. During the edit, all changed are stored local on the server and will not affect the log on rivendell until you press the save button.
 
+!!! Danger
+
+    **The log edit don't recalculate time in log. If you modify a log that has been generated in logmanager all time will get lost when you save it. This is due to Rivendell API.**
+
 !!! Warning
 
     **When you edit your log, an log lock will be added to that log, so no one else can do changes in the log as long as you edit the log. It's important that you press the close button when you are done to release the lock, and if you don't do anything for 30 minutes, a warning will pop up and you have 60 seconds to move your mouse or press a button. If you don't do it, the log will auto close without save your changes.**
