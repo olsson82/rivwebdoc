@@ -8,6 +8,11 @@ Manage your RDAirPlay application here.
 You can set a message in RDAirPlay message window as it has sins version 4.2.0 support for url messages.
 
 Write your message in the window (you can use HTML codes).
+You can check the check box to update the message right away to your RDAirPlay host.
+
+!!! Warning
+
+    **You need to have set a correct IPV4 IP Address for the update to work on your hosts.**
 
 ### Set the url
 To set RDAirPlay to display that message, you need to send a macro command to it. The following command is used to display your message:
