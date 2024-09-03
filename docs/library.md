@@ -28,6 +28,10 @@ Each cart has action buttons that you can use depending on what you would like t
 ### Edit Cart
 The pen button on each cart will take you to the edit page for that cart. You can also press on the cart number to go to the edit page.
 
+### Cuts Window
+![Screenshot](img/libcuts.png)
+The green speaker button allows you to get a quick view over all the cuts that belongs to the cart.
+
 ### Remove Cart
 The red button with an **X** on will remove the cart, you will get a warning before you remove the cart. 
 
