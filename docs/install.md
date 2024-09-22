@@ -38,6 +38,18 @@ Install php with following:
 
 This will install PHP and modules that are common and needed.
 
+Also make some adjustments in php.ini file that you will find in /etc/php/8.2/apache2 folder (replace 8.2 with the version number for your php)
+
+Some suggestions:
+**max_execution_time 180
+memory_limit 128M
+post_max_size 200M
+upload_max_filesize 200M
+max_input_time 60
+max_input_vars 3000**
+
+If you have problems load audio files or upload, you need to adjust these more.
+
 Now restart apache: `sudo systemctl restart apache2`
 
 ### FFMPEG
