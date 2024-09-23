@@ -30,6 +30,14 @@ Press the Save layout button to save that grid. Give it a name and press save. Y
 ![Screenshot](img/selectgridlayout.png)
 Press the Select Layout button to change to another grid layout. Select what you would like to use and press the plus button.
 
+### Edit grid layout
+![Screenshot](img/editgridlayout.png)
+If you press the yellow button with an pen on you can edit that grid layout without need to do changes on active grid. You edit like you edit the grid. But changes will only affect on the layout, and not on rivendells grid.
+
+### Remove grid layout
+Press the red remove button on selected grid layout to remove it. This will only remove your grid layout. Not any active grid in Rivendell.
+
+
 !!! Danger
 
     The grid will be replaced with the selected grid layout as soon as you confirm that you want to add it.
