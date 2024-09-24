@@ -1,7 +1,7 @@
 # RDCatch
 
 ![Screenshot](img/rdcatch.png)
-RDCatch is the place where you manage your RDCatch events. You need to have the host rights on your user to be able to access this part.
+RDCatch is the place where you manage your RDCatch events. You need to set special user right on your user to be able to access this part.
 
 !!! Warning
 
