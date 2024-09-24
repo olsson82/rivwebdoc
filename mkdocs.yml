@@ -18,6 +18,7 @@ nav:
     - Clocks: clocks.md
     - Edit Clock: editclock.md
     - Grids: grids.md
+  - RDCatch: rdcatch.md
   - Account Info: accountinfo.md
   - Admin:
     - Admin Dashboard: admindash.md
@@ -29,7 +30,6 @@ nav:
     - Rivendell Hosts: rivhost.md
     - RDAirPlay: rdairplay.md
     - RDPanel: rdpanel.md
-    - RDCatch: rdcatch.md
 theme:
   name: material  
   logo: img/logo.png
