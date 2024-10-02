@@ -12,6 +12,7 @@ nav:
     - Logs: logs.md
     - Edit Log: editlog.md
     - Voicetracking: voicetrack.md
+    - Multitrack editor: multitrack.md
   - Log Manager:
     - Events: events.md
     - Edit Event: editevent.md
