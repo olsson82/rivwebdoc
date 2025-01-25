@@ -421,6 +421,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#cron-job-for-backups" class="md-nav__link">
+    Cron job for backups
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -814,6 +821,20 @@
   
   
     <li class="md-nav__item">
+      <a href="../backups/" class="md-nav__link">
+        Backups
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
       <a href="../users/" class="md-nav__link">
         Users
       </a>
@@ -1075,6 +1096,13 @@
   
 </li>
       
+        <li class="md-nav__item">
+  <a href="#cron-job-for-backups" class="md-nav__link">
+    Cron job for backups
+  </a>
+  
+</li>
+      
     </ul>
   
 </nav>
@@ -1163,6 +1191,12 @@ max_input_vars 3000</strong></p>
 <h2 id="updates">Updates</h2>
 <p>In the admin dashboard you will get information when a new release is avalible, This will only inform when there are new release on the release page on github.</p>
 <p>To update just replace all files with the new updated, clear your catche and if needed there can be an update guide.</p>
+<h2 id="cron-job-for-backups">Cron job for backups</h2>
+<p>The system can make backups automatic on Rivendell MySQL database and also on Rivendell Web Broadcast data files. To do so you need to setup a cron job on you server.</p>
+<p>Login as root and go in to crontab with <strong>crontab -e</strong></p>
+<p>Add for example following to do backup each midnight:</p>
+<p><code>0 0 * * * curl -s http://localhost/api/backup.php &gt; /dev/null</code></p>
+<p>For this you need to have curl installed on your server.</p>
 
               
             </article>

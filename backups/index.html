@@ -13,7 +13,7 @@
     
     
       
-        <title>System Settings - Rivendell Web Broadcast</title>
+        <title>Backups - Rivendell Web Broadcast</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#system-settings" class="md-skip">
+        <a href="#backups" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              System Settings
+              Backups
             
           </span>
         </div>
@@ -643,6 +643,20 @@
               
   
   
+  
+    <li class="md-nav__item">
+      <a href="../systemsettings/" class="md-nav__link">
+        System Settings
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
     
   
   
@@ -655,12 +669,12 @@
       
       
         <label class="md-nav__link md-nav__link--active" for="__toc">
-          System Settings
+          Backups
           <span class="md-nav__icon md-icon"></span>
         </label>
       
       <a href="./" class="md-nav__link md-nav__link--active">
-        System Settings
+        Backups
       </a>
       
         
@@ -679,8 +693,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#smtp-settings" class="md-nav__link">
-    SMTP Settings
+  <a href="#backups_1" class="md-nav__link">
+    Backups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-backup" class="md-nav__link">
+    Create backup
   </a>
   
 </li>
@@ -689,20 +710,6 @@
   
 </nav>
       
-    </li>
-  
-
-            
-          
-            
-              
-  
-  
-  
-    <li class="md-nav__item">
-      <a href="../backups/" class="md-nav__link">
-        Backups
-      </a>
     </li>
   
 
@@ -853,8 +860,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#smtp-settings" class="md-nav__link">
-    SMTP Settings
+  <a href="#backups_1" class="md-nav__link">
+    Backups
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#create-backup" class="md-nav__link">
+    Create backup
   </a>
   
 </li>
@@ -871,17 +885,23 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/systemsettings.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/backups.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 
-<h1 id="system-settings">System Settings</h1>
-<p><img alt="Screenshot" src="../img/systemsettings.png" /></p>
-<p>This is <strong>Rivendell Web Broadcast</strong> system settings, that this system use. This settings will affect the entire system.</p>
-<h2 id="smtp-settings">SMTP Settings</h2>
-<p>You need SMTP settings for the possible to send out mails. Mails is send out when you create a new rivendell user, and when someone do a password reset.</p>
+<h1 id="backups">Backups</h1>
+<p><img alt="Screenshot" src="../img/backuptable.png" /></p>
+<p>Backup page is where you manage your backups. To have access to backup function, an administrator needs to enable this part on your user settings. Then it will be visible in the admin section.</p>
+<h2 id="backups_1">Backups</h2>
+<p>On the backup page you will find all your backups that is created. Here you can download your backup by pressing the green download button.</p>
+<p>You can also remove your backup by pressing the red remove button.
+If you have cron job setup for automatic backup, then you backup files will be removed automatic if older than 7 days or one month depending on what you have setup in the settings.</p>
+<h2 id="create-backup">Create backup</h2>
+<p><img alt="Screenshot" src="../img/newbackup.png" /></p>
+<p>You can create a new backup by pressing the Create backup button. Select what you want to backup, and press create backup button.</p>
+<p>Your backup will now be avaliable for download.</p>
 
               
             </article>
@@ -895,7 +915,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../admindash/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Admin Dashboard" rel="prev">
+        <a href="../systemsettings/" class="md-footer__link md-footer__link--prev" aria-label="Previous: System Settings" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -904,20 +924,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Admin Dashboard
+              System Settings
             </div>
           </div>
         </a>
       
       
         
-        <a href="../backups/" class="md-footer__link md-footer__link--next" aria-label="Next: Backups" rel="next">
+        <a href="../users/" class="md-footer__link md-footer__link--next" aria-label="Next: Users" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Backups
+              Users
             </div>
           </div>
           <div class="md-footer__button md-icon">
