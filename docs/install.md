@@ -119,3 +119,15 @@ In the admin dashboard you will get information when a new release is avalible, 
 
 To update just replace all files with the new updated, clear your catche and if needed there can be an update guide.
 
+## Cron job for backups
+
+The system can make backups automatic on Rivendell MySQL database and also on Rivendell Web Broadcast data files. To do so you need to setup a cron job on you server.
+
+Login as root and go in to crontab with **crontab -e**
+
+Add for example following to do backup each midnight:
+
+`0 0 * * * curl -s http://localhost/api/backup.php > /dev/null`
+
+For this you need to have curl installed on your server.
+

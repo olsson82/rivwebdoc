@@ -24,6 +24,7 @@ nav:
   - Admin:
     - Admin Dashboard: admindash.md
     - System Settings: systemsettings.md
+    - Backups: backups.md
     - Users: users.md
     - Groups: groups.md
     - Scheduler Codes: schedcodes.md
