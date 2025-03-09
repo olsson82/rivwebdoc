@@ -1,6 +1,10 @@
 # Edit Clock
 ![Screenshot](img/editclock.png)
-This is the place to manage your clock hour for selected clock. Each row is one event, that will be the audio when the log is generated.
+This is the place to manage your clock hour for selected clock. 
+
+On the left side you will see the clock wheel that represent a full hour, on the right side you will see the list with all the events.
+
+Each row is one event, that will be the audio when the log is generated.
 
 You can se start time, end time, length, transition and event on each line.
 
