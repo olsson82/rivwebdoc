@@ -422,6 +422,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#cron-job-for-log-generation" class="md-nav__link">
+    Cron job for log generation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cron-job-for-backups" class="md-nav__link">
     Cron job for backups
   </a>
@@ -715,6 +722,20 @@
     <li class="md-nav__item">
       <a href="../grids/" class="md-nav__link">
         Grids
+      </a>
+    </li>
+  
+
+            
+          
+            
+              
+  
+  
+  
+    <li class="md-nav__item">
+      <a href="../loggen/" class="md-nav__link">
+        Log Generation
       </a>
     </li>
   
@@ -1097,6 +1118,13 @@
 </li>
       
         <li class="md-nav__item">
+  <a href="#cron-job-for-log-generation" class="md-nav__link">
+    Cron job for log generation
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#cron-job-for-backups" class="md-nav__link">
     Cron job for backups
   </a>
@@ -1191,6 +1219,12 @@ max_input_vars 3000</strong></p>
 <h2 id="updates">Updates</h2>
 <p>In the admin dashboard you will get information when a new release is avalible, This will only inform when there are new release on the release page on github.</p>
 <p>To update just replace all files with the new updated, clear your catche and if needed there can be an update guide.</p>
+<h2 id="cron-job-for-log-generation">Cron job for log generation</h2>
+<p>If you are going to use the log generation part you need to setup cron job that runs every minute.</p>
+<p>Login as root and go in to crontab with <strong>crontab -e</strong></p>
+<p>Add the following to the crontab:</p>
+<p><code>* * * * * curl -s http://localhost/api/generator.php &gt; /dev/null</code></p>
+<p>For this you need to have curl installed on your server.</p>
 <h2 id="cron-job-for-backups">Cron job for backups</h2>
 <p>The system can make backups automatic on Rivendell MySQL database and also on Rivendell Web Broadcast data files. To do so you need to setup a cron job on you server.</p>
 <p>Login as root and go in to crontab with <strong>crontab -e</strong></p>
@@ -1247,7 +1281,7 @@ max_input_vars 3000</strong></p>
       <div class="md-copyright">
   
     <div class="md-copyright__highlight">
-      Copyright &copy; 2023-2024 Andreas Olsson
+      Copyright &copy; 2023-2025 Andreas Olsson
     </div>
   
   

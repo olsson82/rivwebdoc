@@ -13,7 +13,7 @@
     
     
       
-        <title>Dashboard - Rivendell Web Broadcast</title>
+        <title>Log Generation - Rivendell Web Broadcast</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#dashboard" class="md-skip">
+        <a href="#log-generator" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Dashboard
+              Log Generation
             
           </span>
         </div>
@@ -278,66 +278,11 @@
 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Dashboard
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../dashboard/" class="md-nav__link">
         Dashboard
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#statics" class="md-nav__link">
-    Statics
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#voice-tracks" class="md-nav__link">
-    Voice tracks
-  </a>
-  
-</li>
-      
-        <li class="md-nav__item">
-  <a href="#message-from-radio-station" class="md-nav__link">
-    Message from radio station
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -518,14 +463,16 @@
 
   
   
+    
+  
   
     
       
     
-    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
       
       
       
@@ -616,11 +563,73 @@
               
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../loggen/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Log Generation
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Log Generation
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#generate-logs" class="md-nav__link">
+    Generate Logs
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#logs-list" class="md-nav__link">
+    Logs List
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#log-generation-log" class="md-nav__link">
+    Log generation Log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove-log-generation-data" class="md-nav__link">
+    Remove log generation data
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -879,22 +888,29 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#statics" class="md-nav__link">
-    Statics
+  <a href="#generate-logs" class="md-nav__link">
+    Generate Logs
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#voice-tracks" class="md-nav__link">
-    Voice tracks
+  <a href="#logs-list" class="md-nav__link">
+    Logs List
   </a>
   
 </li>
       
         <li class="md-nav__item">
-  <a href="#message-from-radio-station" class="md-nav__link">
-    Message from radio station
+  <a href="#log-generation-log" class="md-nav__link">
+    Log generation Log
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#remove-log-generation-data" class="md-nav__link">
+    Remove log generation data
   </a>
   
 </li>
@@ -911,21 +927,42 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/dashboard.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/loggen.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 
-<h1 id="dashboard">Dashboard</h1>
-<p><img alt="Screenshot" src="../img/mainscreen.png" /></p>
-<p>This is the first thing you will see when you log in. This is just an information page.</p>
-<h2 id="statics">Statics</h2>
-<p>On top you will get total data of carts in library, how many groups you have, scheduler codes and logs.</p>
-<h2 id="voice-tracks">Voice tracks</h2>
-<p>If there are voice tracks that needs to be recorded on your selected service you will get the information here. Just press the <strong>Fix it now</strong> button to open up that log for voice tracking.</p>
-<h2 id="message-from-radio-station">Message from radio station</h2>
-<p>If the radio station has written an message to all your users, it will be available here on the dashboard.</p>
+<h1 id="log-generator">Log Generator</h1>
+<p><img alt="Screenshot" src="../img/loggenerator.png" /></p>
+<div class="admonition danger">
+<p class="admonition-title">Danger</p>
+<p><strong>This is for testing only, and need to be enable in settings by an administrator. Do not test it on a live production machine. Right now it's not possible to use external scheduler with this log generation. It has not been built in yet. Don't forget to setup cron job for log generation, more info in installation section.</strong></p>
+</div>
+<p>Log generation is where you generate scheduled logs. </p>
+<p>It uses the same procedure as the original log generator, but it can handle multiple logs to be added at the same time for log generation.</p>
+<h2 id="generate-logs">Generate Logs</h2>
+<p><img alt="Screenshot" src="../img/generatelog.png" />
+Press the generate log button to open the window where you select log service and date for log generation. When you have select correct service and date, press the Generate log button to add it to generate list. You can add more dates to be generated.</p>
+<p>If a log exist, it will warn you about it. And if you agree, it will remove the old log when the new one is generated.</p>
+<h2 id="logs-list">Logs List</h2>
+<p>The log list holds all logs that going to be generated or has been generated.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>It's on the todo list to have them auto remove when the purge date is.</strong></p>
+</div>
+<p>In the status section, you can see if the log is ready for log generation, is generating or done.</p>
+<p>The green button on each log is for regenerate a log. If you click on that it will remove the old one and generate a new one.</p>
+<h2 id="log-generation-log">Log generation Log</h2>
+<p><img alt="Screenshot" src="../img/loglog.png" />
+The log generation logs is located if you press the yellow information button. It store the information on the web server only and you can find information on the log generation.</p>
+<div class="admonition info">
+<p class="admonition-title">Info</p>
+<p><strong>During the development there will be more log information than needed. Some information will be removed when a more stable version is ready.</strong></p>
+</div>
+<h2 id="remove-log-generation-data">Remove log generation data</h2>
+<p>You can remove the log generation data by pressing the red X button. No real logs will be removed, only log generation data, and they are stored on the web server only.</p>
+<p>You can also remove multiple log generation data if you check the check boxes and press the delete selected button that will pop up.</p>
 
               
             </article>
@@ -939,7 +976,7 @@
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../install/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installation" rel="prev">
+        <a href="../grids/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Grids" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -948,20 +985,20 @@
               <span class="md-footer__direction">
                 Previous
               </span>
-              Installation
+              Grids
             </div>
           </div>
         </a>
       
       
         
-        <a href="../library/" class="md-footer__link md-footer__link--next" aria-label="Next: Library" rel="next">
+        <a href="../rdcatch/" class="md-footer__link md-footer__link--next" aria-label="Next: RDCatch" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Library
+              RDCatch
             </div>
           </div>
           <div class="md-footer__button md-icon">
