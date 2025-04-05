@@ -119,6 +119,18 @@ In the admin dashboard you will get information when a new release is avalible, 
 
 To update just replace all files with the new updated, clear your catche and if needed there can be an update guide.
 
+## Cron job for log generation
+
+If you are going to use the log generation part you need to setup cron job that runs every minute.
+
+Login as root and go in to crontab with **crontab -e**
+
+Add the following to the crontab:
+
+`* * * * * curl -s http://localhost/api/generator.php > /dev/null`
+
+For this you need to have curl installed on your server.
+
 ## Cron job for backups
 
 The system can make backups automatic on Rivendell MySQL database and also on Rivendell Web Broadcast data files. To do so you need to setup a cron job on you server.

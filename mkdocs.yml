@@ -19,6 +19,7 @@ nav:
     - Clocks: clocks.md
     - Edit Clock: editclock.md
     - Grids: grids.md
+    - Log Generation: loggen.md
   - RDCatch: rdcatch.md
   - Account Info: accountinfo.md
   - Admin:
@@ -61,7 +62,7 @@ theme:
 repo_name: olsson82/rivendellweb
 repo_url: https://github.com/olsson82/rivendellweb
 edit_uri: '../rivwebdoc/blob/main/docs/'
-copyright: Copyright &copy; 2023-2024 Andreas Olsson
+copyright: Copyright &copy; 2023-2025 Andreas Olsson
 extra:
   social:
     - icon: fontawesome/brands/github 
