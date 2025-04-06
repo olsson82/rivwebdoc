@@ -20,7 +20,7 @@ The log list holds all logs that going to be generated or has been generated.
 
 !!! Info
 
-    **It's on the todo list to have them auto remove when the purge date is.**
+    **If the log has a purge date set to auto remove, the log generator data will also be removed on that day.**
 
 In the status section, you can see if the log is ready for log generation, is generating or done.
 
