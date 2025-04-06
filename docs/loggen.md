@@ -7,6 +7,8 @@
 
 Log generation is where you generate scheduled logs. 
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/90IsBbZszSk?si=poE19wTtbwbbiaX9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 It uses the same procedure as the original log generator, but it can handle multiple logs to be added at the same time for log generation.
 
 ## Generate Logs
