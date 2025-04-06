@@ -2,6 +2,8 @@
 ![Screenshot](img/events.png)
 All your events for log management you will find here, on each event you can choose to edit event (pen button), rename event (yellow **T** button) or remove event (red **X** button)
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/xK2Nu3eFhAw?si=GIFdSXdwWwHMJNLL" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 !!! Warning
 
     You will only get events that are assigned to the selected service.
