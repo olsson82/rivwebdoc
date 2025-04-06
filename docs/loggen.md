@@ -11,7 +11,11 @@ It uses the same procedure as the original log generator, but it can handle mult
 
 ## Generate Logs
 ![Screenshot](img/generatelog.png)
-Press the generate log button to open the window where you select log service and date for log generation. When you have select correct service and date, press the Generate log button to add it to generate list. You can add more dates to be generated.
+Press the generate log button to open the window where you select log service and date for log generation. When you have select correct service and date, press the Generate log button to add it to generate list.
+
+!!! Info
+
+    **It's possible to select multiple dates to add for log generation**
 
 If a log exist, it will warn you about it. And if you agree, it will remove the old log when the new one is generated.
 
