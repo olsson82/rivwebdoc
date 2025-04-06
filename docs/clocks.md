@@ -3,6 +3,8 @@
 
 Clocks is where you find your clocks for log management. Each clock is one hour.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/71DGQ5_J_o4?si=A4A2JHcRcLj9rIzA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 On each clock line you can edit clock, rename clock and remove clock.
 
 !!! Danger
