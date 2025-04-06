@@ -2,6 +2,8 @@
 ![Screenshot](img/logs.png)
 Logs is the place where you can manage your logs in rivendell. Here you will find all available logs.
 
+<iframe width="560" height="315" src="https://www.youtube.com/embed/6APlgjREG2c?si=wvuZDdpacdjVqw63" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+
 **Only logs that belongs to the active service will be displayed in the logs window**
 
 In the table you will get important information like how many voice tracks that are recorded and needs to record. If an log is red, you need to record voice tracks,
