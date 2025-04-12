@@ -599,6 +599,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#wildcards" class="md-nav__link">
+    Wildcards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#generate-logs" class="md-nav__link">
     Generate Logs
   </a>
@@ -888,6 +895,13 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
+  <a href="#wildcards" class="md-nav__link">
+    Wildcards
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
   <a href="#generate-logs" class="md-nav__link">
     Generate Logs
   </a>
@@ -943,6 +957,126 @@
 <iframe width="560" height="315" src="https://www.youtube.com/embed/90IsBbZszSk?si=poE19wTtbwbbiaX9" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 
 <p>It uses the same procedure as the original log generator, but it can handle multiple logs to be added at the same time for log generation.</p>
+<h2 id="wildcards">Wildcards</h2>
+<p>System support filepath wildcards for date and time. And the following is supported:</p>
+<table>
+<thead>
+<tr>
+<th>Wildcard</th>
+<th>Info</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>%m</td>
+<td>Month, zero padded (01 - 12)</td>
+</tr>
+<tr>
+<td>%d</td>
+<td>Day of the month, zero padded (01 - 31)</td>
+</tr>
+<tr>
+<td>%Y</td>
+<td>Four digit year</td>
+</tr>
+<tr>
+<td>%y</td>
+<td>Two digit year</td>
+</tr>
+<tr>
+<td>%G</td>
+<td>Four digit year, as per ISO 8601</td>
+</tr>
+<tr>
+<td>%a</td>
+<td>Abbreviated weekday name --e.g. 'mon', 'tue'</td>
+</tr>
+<tr>
+<td>%A</td>
+<td>Full weekday name --e.g. 'monday', 'tuesday'</td>
+</tr>
+<tr>
+<td>%b</td>
+<td>Abbreviated month name --e.g. 'jan', 'feb'</td>
+</tr>
+<tr>
+<td>%h</td>
+<td>Abbreviated month name --e.g. 'jan', 'feb'</td>
+</tr>
+<tr>
+<td>%B</td>
+<td>Full month name --e.g. 'january', 'february'</td>
+</tr>
+<tr>
+<td>%D</td>
+<td>Date (mm-dd-yy)</td>
+</tr>
+<tr>
+<td>%e</td>
+<td>Day of the month, space padded ( 1 - 12)</td>
+</tr>
+<tr>
+<td>%F</td>
+<td>Date (yyyy-mm-dd)</td>
+</tr>
+<tr>
+<td>%H</td>
+<td>Hour, 24 hour, zero padded (00 - 23)</td>
+</tr>
+<tr>
+<td>%k</td>
+<td>Hour, 24 hour, space padded ( 0 - 23)</td>
+</tr>
+<tr>
+<td>%i</td>
+<td>Hour, 12 hour, space padded ( 0 - 12)</td>
+</tr>
+<tr>
+<td>%J</td>
+<td>Hour, 12 hour, unpadded (1 - 12)</td>
+</tr>
+<tr>
+<td>%I</td>
+<td>Hour, 12 hour, zero padded (00 - 12)</td>
+</tr>
+<tr>
+<td>%j</td>
+<td>Day of year (0 - 365)</td>
+</tr>
+<tr>
+<td>%l</td>
+<td>Month, unpadded (1-12)</td>
+</tr>
+<tr>
+<td>%M</td>
+<td>Minute, zero padded (00 - 59)</td>
+</tr>
+<tr>
+<td>%P</td>
+<td>AM/PM string</td>
+</tr>
+<tr>
+<td>%S</td>
+<td>Seconds, zero padded (00 - 60)</td>
+</tr>
+<tr>
+<td>%u</td>
+<td>Day of the week, numeric, 1=Monday, 7=Sunday</td>
+</tr>
+<tr>
+<td>%w</td>
+<td>Day of the week, numeric, 0=Monday, 6=Sunday</td>
+</tr>
+<tr>
+<td>%V</td>
+<td>Week number, as per ISO 8601</td>
+</tr>
+<tr>
+<td>%W</td>
+<td>Week number, as per ISO 8601</td>
+</tr>
+</tbody>
+</table>
 <h2 id="generate-logs">Generate Logs</h2>
 <p><img alt="Screenshot" src="../img/generatelog.png" />
 Press the generate log button to open the window where you select log service and date for log generation. When you have select correct service and date, press the Generate log button to add it to generate list.</p>
