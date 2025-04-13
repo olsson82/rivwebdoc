@@ -11,3 +11,8 @@ You can change your password by first enter your current password, after that yo
 
 ## Update user information
 You can here change your name, email and phone number. Email is needed if you forget your password.
+
+## Two Factor Login
+You can activate two factor login on your account for more security. Just check the Two Factor Login checkbox.
+
+Each time you login, you will get a one time code on your email, that is enable in 5 minutes. You need to enter that code to login.
