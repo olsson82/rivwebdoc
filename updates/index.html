@@ -13,7 +13,7 @@
     
     
       
-        <title>Multitrack editor - Rivendell Web Broadcast</title>
+        <title>Updates - Rivendell Web Broadcast</title>
       
     
     
@@ -63,7 +63,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#multitrack-editor" class="md-skip">
+        <a href="#update-rivendell-web-broadcast" class="md-skip">
           Skip to content
         </a>
       
@@ -95,7 +95,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Multitrack editor
+              Updates
             
           </span>
         </div>
@@ -278,11 +278,59 @@
 
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../updates/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          Updates
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         Updates
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#update-system" class="md-nav__link">
+    Update system
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-is-done" class="md-nav__link">
+    Update is done
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -386,16 +434,14 @@
 
   
   
-    
-  
   
     
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
       
-        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" checked>
+        <input class="md-nav__toggle md-toggle" data-md-toggle="__nav_7" type="checkbox" id="__nav_7" >
       
       
       
@@ -458,52 +504,11 @@
               
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" data-md-toggle="toc" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          Multitrack editor
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../multitrack/" class="md-nav__link">
         Multitrack editor
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-editor" class="md-nav__link">
-    The editor
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -882,8 +887,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-editor" class="md-nav__link">
-    The editor
+  <a href="#update-system" class="md-nav__link">
+    Update system
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#update-is-done" class="md-nav__link">
+    Update is done
   </a>
   
 </li>
@@ -900,34 +912,41 @@
             <article class="md-content__inner md-typeset">
               
                 
-<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/multitrack.md" title="Edit this page" class="md-content__button md-icon">
+<a href="https://github.com/olsson82/rivwebdoc/blob/main/docs/updates.md" title="Edit this page" class="md-content__button md-icon">
   <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20.71 7.04c.39-.39.39-1.04 0-1.41l-2.34-2.34c-.37-.39-1.02-.39-1.41 0l-1.84 1.83 3.75 3.75M3 17.25V21h3.75L17.81 9.93l-3.75-3.75L3 17.25z"/></svg>
 </a>
 
 
 
-<h1 id="multitrack-editor">Multitrack Editor</h1>
-<p><img alt="Screenshot" src="../img/multitrack.png" /></p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>The multitrack editor is still in early stage and for the moment for testing only, do not use it on live production. There can be changes, there can be bugs.</p>
-</div>
-<p>The multitrack editor will be enable after you have record or uploaded your voicetrack. You need to press the green button to open multitrack editor up.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The multitrack editor will only be enabled after an admin has activated this function in System Settings.</p>
-</div>
-<h2 id="the-editor">The editor</h2>
-<p><img alt="Screenshot" src="../img/multitrackedit.png" />
-The multitrack editor will have the voicetrack in the middle just like in rivendell.</p>
-<p>Above the track editor you will find Play, Pause, Stop, Go to start, Go to end. And you will also find Zoom In and Zoom Out.</p>
-<p>The headphone button will enable you to set cursor position where you want the player to start play. The dobble arrow button enable track moving. This will allow you to move your tracks.</p>
+<h1 id="update-rivendell-web-broadcast">Update Rivendell Web Broadcast</h1>
+<p><img alt="Screenshot" src="../img/updatewindow.png" /></p>
+<p>When you are in update window you can do updates directly to the system without have to manage files on your server.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>The first track is not possible to move.</p>
+<p><strong>You need to have admin rights to do updates</strong></p>
 </div>
-<p>The right arrow up button allows you to set a fade up marker on the track. And the right arrow down button allows you to set fade down marker on the track.</p>
-<p>When you are done press Save button.</p>
+<p>When you are in update mode, your system will be put in maintenance mode.
+This means that your user can not use the system during the update.</p>
+<h2 id="update-system">Update system</h2>
+<p>To update your system press the <strong>Update now</strong> button.</p>
+<p><img alt="Screenshot" src="../img/isupdate.png" /></p>
+<p>If there are no problems, your update will finish with success. But if there are problems it will inform you about it and abort the update.</p>
+<p>The update system will do:</p>
+<ul>
+<li>Backups</li>
+<li>Check if it has read and write access</li>
+<li>Run scripts (If needed for the system)</li>
+<li>Update your files</li>
+</ul>
+<p>The update system only updates files that has been changed or added, it don't replace all files. So the update should be done quickly.</p>
+<div class="admonition warning">
+<p class="admonition-title">Warning</p>
+<p><strong>There must be read and write on the files on the server for the update system to work.</strong></p>
+</div>
+<h2 id="update-is-done">Update is done</h2>
+<p>When the update is done, press the <strong>Finished</strong> button to reload the update window to make sure everything was successful.</p>
+<p><img alt="Screenshot" src="../img/updatedone.png" /></p>
+<p>It will inform you that the version is up to date. Now just click on <strong>Done</strong> button to exit the update and release the Maintenance mode.</p>
 
               
             </article>
@@ -941,7 +960,7 @@ The multitrack editor will have the voicetrack in the middle just like in rivend
     <nav class="md-footer__inner md-grid" aria-label="Footer">
       
         
-        <a href="../voicetrack/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Voicetracking" rel="prev">
+        <a href="../install/" class="md-footer__link md-footer__link--prev" aria-label="Previous: Installation" rel="prev">
           <div class="md-footer__button md-icon">
             <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24"><path d="M20 11v2H8l5.5 5.5-1.42 1.42L4.16 12l7.92-7.92L13.5 5.5 8 11h12z"/></svg>
           </div>
@@ -950,20 +969,20 @@ The multitrack editor will have the voicetrack in the middle just like in rivend
               <span class="md-footer__direction">
                 Previous
               </span>
-              Voicetracking
+              Installation
             </div>
           </div>
         </a>
       
       
         
-        <a href="../events/" class="md-footer__link md-footer__link--next" aria-label="Next: Events" rel="next">
+        <a href="../dashboard/" class="md-footer__link md-footer__link--next" aria-label="Next: Dashboard" rel="next">
           <div class="md-footer__title">
             <div class="md-ellipsis">
               <span class="md-footer__direction">
                 Next
               </span>
-              Events
+              Dashboard
             </div>
           </div>
           <div class="md-footer__button md-icon">
