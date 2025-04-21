@@ -3,6 +3,7 @@ nav:
   - Home: index.md
   - About: about.md
   - Installation: install.md
+  - Updates: updates.md
   - Dashboard: dashboard.md
   - Carts Management:
     - Library: library.md
