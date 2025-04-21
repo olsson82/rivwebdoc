@@ -67,6 +67,10 @@ extra:
   social:
     - icon: fontawesome/brands/github 
       link: https://github.com/olsson82/rivendellweb
+    - icon: fontawesome/brands/youtube 
+      link: https://youtube.com/playlist?list=PLrHGYkch0iQKlcynkuuE0kHoW1NTUFM6q&si=zhAuKjL9x1mgvCja
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/ztMfMPngC5
 markdown_extensions:
   - tables
   - admonition
