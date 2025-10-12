@@ -12,6 +12,10 @@ The background color under action column is the event color.
 
 On each line you can edit, copy and remove that line.
 
+!!! Info
+
+    You can click on any pie in the clock wheel to edit that part.
+
 ## Add Event
 ![Screenshot](img/addeventclock.png)
 Add a new clock line here by selecting the event you would like to use, then you set a start and end time.
