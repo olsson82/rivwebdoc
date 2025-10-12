@@ -131,8 +131,6 @@ Don't forget the last dot!
 
 The updater need read and write access to the server to update the system on new releases.
 
-Chmod the data folder so it get read and write access. This folder store json settings files for the system, logeditor and password reset.
-
 ### Reverse Proxy
 
 It's recommended that you use reverse proxy with https access before you expose the machine on the world wide web. For testing you can use http://localhost
