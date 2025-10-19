@@ -54,6 +54,24 @@ Press the generate log button to open the window where you select log service an
 
 If a log exist, it will warn you about it. And if you agree, it will remove the old log when the new one is generated.
 
+## Automatic Log Generator
+![Screenshot](img/loggensettings.png)
+There are an automatic log generator, that can generate your logs for you. It will work in the background, and generate the logs.
+Press the Settings button to open up the settings window.
+
+Here you can enable automatic generator. You can generate up to 7 days. Just enter how many days you will generate.
+
+Under services select the services you would like to generate logs for.
+
+It will start to generate two days before. And all information are stored on the server, and not in Rivendell Radio Automation.
+
+!!! Info
+
+    **If your last log will run on 2025-10-20, the log generator will generate new logs on 2025-10-19.**
+    
+    **Before you enable make shure you have logs generated in the past.**
+
+
 ## Logs List
 The log list holds all logs that going to be generated or has been generated.
 
