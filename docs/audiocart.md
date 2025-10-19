@@ -16,6 +16,22 @@ If you press the pen button on the cut, you will open the cut info window where 
 
 Just press save button to save your changes.
 
+### Copy Cuts
+![Screenshot](img/copycuts.png)
+You can copy a cut by pressing the grey copy button. This will add the cut information avalible for one hour. To paste the copied cut, add an empty cut, and there will be a grey paste button instead of copy cut button.
+
+A window will pop up and you can select what cut you would like to paste. If you would like to use autotrim, check that button and the correct level.
+
+Press the blue paste button on the selected cut you would like to paste to the empty cut. The audio, markers and other cut data will be copied to the empty cut.
+
+The red button next to the copied cut will delete the copied cut data.
+
+!!! Info
+
+    **You can copy your cuts into other carts, they will be avaliable for an hour. You can copy more then one cut. They will be stored in the copied cuts data window.**
+    
+    **Only data are stored temporaly on the server, audio files are only copied when you paste a cut.**
+
 ### Record Cut
 ![Screenshot](img/recordcut.png)
 The red button with an microphone on, allows you to record audio directly in to that cut. When you press on that button a window will open, start by set the audio channels, audiotrim and normalize settings.
