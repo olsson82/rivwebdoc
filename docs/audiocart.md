@@ -22,6 +22,8 @@ You can copy a cut by pressing the grey copy button. This will add the cut infor
 
 A window will pop up and you can select what cut you would like to paste. If you would like to use autotrim, check that button and the correct level.
 
+You can also check if you would like to include cut info data and cut audio markers when you paste the cut.
+
 Press the blue paste button on the selected cut you would like to paste to the empty cut. The audio, markers and other cut data will be copied to the empty cut.
 
 The red button next to the copied cut will delete the copied cut data.
