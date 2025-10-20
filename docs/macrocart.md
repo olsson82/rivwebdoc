@@ -9,7 +9,7 @@ In your macro cart you have your commandos, where you tell what your macro cart 
 
 !!! Warning
 
-    **Changes will take affect directly**
+    **You need to press the save button to save changes to the macro commands.**
 
 ### Add Command
 ![Screenshot](img/addcommand.png)
