@@ -7,6 +7,7 @@ For voice track you have two options, record directly in your browser or upload 
 ## Record audio
 ![Screenshot](img/record2.png)
 You can record voice track by pressing the microphone button. A new window will pop up and start by pressing the record button.
+You will see the information about the song before and after the voicetrack.
 
 If you not have select your input, you will have to do it first, then the recording will start. When you are done, click on stop button.
 
