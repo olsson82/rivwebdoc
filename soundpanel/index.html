@@ -9,10 +9,10 @@
       
       
       
-        <link rel="prev" href="../voicetrack/">
+        <link rel="prev" href="../dashboard/">
       
       
-        <link rel="next" href="../events/">
+        <link rel="next" href="../library/">
       
       
       <link rel="icon" href="../img/logo.png">
@@ -20,7 +20,7 @@
     
     
       
-        <title>Multitrack editor - Rivendell Web Broadcast</title>
+        <title>Soundpanel - Rivendell Web Broadcast</title>
       
     
     
@@ -75,7 +75,7 @@
     <div data-md-component="skip">
       
         
-        <a href="#multitrack-editor" class="md-skip">
+        <a href="#soundpanel" class="md-skip">
           Skip to content
         </a>
       
@@ -110,7 +110,7 @@
         <div class="md-header__topic" data-md-component="header-topic">
           <span class="md-ellipsis">
             
-              Multitrack editor
+              Soundpanel
             
           </span>
         </div>
@@ -351,9 +351,29 @@
       
   
   
+    
   
-    <li class="md-nav__item">
-      <a href="../soundpanel/" class="md-nav__link">
+  
+    <li class="md-nav__item md-nav__item--active">
+      
+      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
+      
+      
+        
+      
+      
+        <label class="md-nav__link md-nav__link--active" for="__toc">
+          
+  
+  <span class="md-ellipsis">
+    Soundpanel
+  </span>
+  
+
+          <span class="md-nav__icon md-icon"></span>
+        </label>
+      
+      <a href="./" class="md-nav__link md-nav__link--active">
         
   
   <span class="md-ellipsis">
@@ -362,6 +382,40 @@
   
 
       </a>
+      
+        
+
+<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
+  
+  
+  
+    
+  
+  
+    <label class="md-nav__title" for="__toc">
+      <span class="md-nav__icon md-icon"></span>
+      Table of contents
+    </label>
+    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
+      
+        <li class="md-nav__item">
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-as-an-app" class="md-nav__link">
+    Install as an app
+  </a>
+  
+</li>
+      
+    </ul>
+  
+</nav>
+      
     </li>
   
 
@@ -473,21 +527,19 @@
       
   
   
-    
-  
   
     
     
     
       
     
-    <li class="md-nav__item md-nav__item--active md-nav__item--section md-nav__item--nested">
+    <li class="md-nav__item md-nav__item--section md-nav__item--nested">
       
         
         
         
         
-        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" checked>
+        <input class="md-nav__toggle md-toggle " type="checkbox" id="__nav_8" >
         
           <label class="md-nav__link" for="__nav_8" id="__nav_8_label" tabindex="0">
             
@@ -500,7 +552,7 @@
             <span class="md-nav__icon md-icon"></span>
           </label>
         
-        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="true">
+        <nav class="md-nav" data-md-level="1" aria-labelledby="__nav_8_label" aria-expanded="false">
           <label class="md-nav__title" for="__nav_8">
             <span class="md-nav__icon md-icon"></span>
             Log Edit
@@ -571,29 +623,9 @@
                 
   
   
-    
   
-  
-    <li class="md-nav__item md-nav__item--active">
-      
-      <input class="md-nav__toggle md-toggle" type="checkbox" id="__toc">
-      
-      
-        
-      
-      
-        <label class="md-nav__link md-nav__link--active" for="__toc">
-          
-  
-  <span class="md-ellipsis">
-    Multitrack editor
-  </span>
-  
-
-          <span class="md-nav__icon md-icon"></span>
-        </label>
-      
-      <a href="./" class="md-nav__link md-nav__link--active">
+    <li class="md-nav__item">
+      <a href="../multitrack/" class="md-nav__link">
         
   
   <span class="md-ellipsis">
@@ -602,33 +634,6 @@
   
 
       </a>
-      
-        
-
-<nav class="md-nav md-nav--secondary" aria-label="Table of contents">
-  
-  
-  
-    
-  
-  
-    <label class="md-nav__title" for="__toc">
-      <span class="md-nav__icon md-icon"></span>
-      Table of contents
-    </label>
-    <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
-      
-        <li class="md-nav__item">
-  <a href="#the-editor" class="md-nav__link">
-    The editor
-  </a>
-  
-</li>
-      
-    </ul>
-  
-</nav>
-      
     </li>
   
 
@@ -1132,8 +1137,15 @@
     <ul class="md-nav__list" data-md-component="toc" data-md-scrollfix>
       
         <li class="md-nav__item">
-  <a href="#the-editor" class="md-nav__link">
-    The editor
+  <a href="#how-it-works" class="md-nav__link">
+    How it works
+  </a>
+  
+</li>
+      
+        <li class="md-nav__item">
+  <a href="#install-as-an-app" class="md-nav__link">
+    Install as an app
   </a>
   
 </li>
@@ -1156,28 +1168,21 @@
   
 
 
-<h1 id="multitrack-editor">Multitrack Editor</h1>
-<p><img alt="Screenshot" src="../img/multitrack.png" /></p>
-<div class="admonition danger">
-<p class="admonition-title">Danger</p>
-<p>The multitrack editor is still in early stage and for the moment for testing only, do not use it on live production. There can be changes, there can be bugs.</p>
-</div>
-<p>The multitrack editor will be enable after you have record or uploaded your voicetrack. You need to press the green button to open multitrack editor up.</p>
-<div class="admonition warning">
-<p class="admonition-title">Warning</p>
-<p>The multitrack editor will only be enabled after an admin has activated this function in System Settings.</p>
-</div>
-<h2 id="the-editor">The editor</h2>
-<p><img alt="Screenshot" src="../img/multitrackedit.png" />
-The multitrack editor will have the voicetrack in the middle just like in rivendell.</p>
-<p>Above the track editor you will find Play, Pause, Stop, Go to start, Go to end. And you will also find Zoom In and Zoom Out.</p>
-<p>The headphone button will enable you to set cursor position where you want the player to start play. The dobble arrow button enable track moving. This will allow you to move your tracks.</p>
+<h1 id="soundpanel">Soundpanel</h1>
+<p>Soundpanel is an pwa app that you can use to control RDAirPlay soundpanels thru an tablet.</p>
+<h2 id="how-it-works">How it works</h2>
+<p><img alt="Screenshot" src="../img/sndairplay.png" />
+Instead of using your mouse on soundpanel in RDAirPlay you can use your tablet as a touch screen to start them.</p>
+<p><img alt="Screenshot" src="../img/sndweb.png" />
+The soundpanels that are setup in RDAirPlay on system or user will be avaliable. To use it you need to login with your user in Rivendell. The same user need to login in Rivendell Web Broadcast.</p>
+<p>You will now have access to soundpanels. Just click on one and it will run in RDAirPlays soundpanel. In top right corner you can change to another panels. You will also have access to system panels.</p>
 <div class="admonition info">
 <p class="admonition-title">Info</p>
-<p>The first track is not possible to move.</p>
+<p><strong>Go to https://yourdomainname.com/touch/panel (where yourdomainname is the name for your rivendell web broadcast) and your panels will be visible.</strong></p>
 </div>
-<p>The right arrow up button allows you to set a fade up marker on the track. And the right arrow down button allows you to set fade down marker on the track.</p>
-<p>When you are done press Save button.</p>
+<h2 id="install-as-an-app">Install as an app</h2>
+<p>Go to https://yourdomainname.com/touch/login (where yourdomanname is the name for your rivendell web broadcast) and save it to your homescreen in your tablet. It will install as an PWA app and will be easy to access.</p>
+<p>You need to first be logged out on Rivendell Web Broadcast</p>
 
 
 
